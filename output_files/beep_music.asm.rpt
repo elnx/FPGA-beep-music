@@ -1,5 +1,5 @@
 Assembler report for beep_music
-Fri Oct 23 12:27:02 2015
+Fri Oct 30 10:53:30 2015
 Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
@@ -37,9 +37,9 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Oct 23 12:27:02 2015 ;
+; Assembler Status      ; Successful - Fri Oct 30 10:53:30 2015 ;
 ; Revision Name         ; beep_music                            ;
-; Top-level Entity Name ; beep_music_top                        ;
+; Top-level Entity Name ; liangzhu_player                       ;
 ; Family                ; Cyclone III                           ;
 ; Device                ; EP3C25Q240C8                          ;
 +-----------------------+---------------------------------------+
@@ -92,8 +92,8 @@ applicable agreement for further details.
 ; Option         ; Setting                                                               ;
 +----------------+-----------------------------------------------------------------------+
 ; Device         ; EP3C25Q240C8                                                          ;
-; JTAG usercode  ; 0x00143A23                                                            ;
-; Checksum       ; 0x00143A23                                                            ;
+; JTAG usercode  ; 0x00147843                                                            ;
+; Checksum       ; 0x00147843                                                            ;
 +----------------+-----------------------------------------------------------------------+
 
 
@@ -103,13 +103,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
-    Info: Processing started: Fri Oct 23 12:27:00 2015
+    Info: Processing started: Fri Oct 30 10:53:28 2015
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off beep_music -c beep_music
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 414 megabytes
-    Info: Processing ended: Fri Oct 23 12:27:02 2015
+    Info: Peak virtual memory: 410 megabytes
+    Info: Processing ended: Fri Oct 30 10:53:30 2015
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 

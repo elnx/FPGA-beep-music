@@ -71,7 +71,7 @@ Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage 
 VCCD_PLL3                    : 1         : power  :                   : 1.2V    :           :                
 GNDA3                        : 2         : gnd    :                   :         :           :                
 VCCA3                        : 3         : power  :                   : 2.5V    :           :                
-o_buzzer                     : 4         : output : 2.5 V             :         : 1         : Y              
+o_audio                      : 4         : output : 2.5 V             :         : 1         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : 5         :        :                   :         : 1         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : 6         :        :                   :         : 1         :                
 VCCIO1                       : 7         : power  :                   : 2.5V    : 1         :                
@@ -177,7 +177,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : 106       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : 107       :        :                   :         : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : 108       :        :                   :         : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : 109       :        :                   :         : 4         :                
-i_start_n                    : 110       : input  : 2.5 V             :         : 4         : Y              
+i_button_n                   : 110       : input  : 2.5 V             :         : 4         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : 111       :        :                   :         : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : 112       :        :                   :         : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : 113       :        :                   :         : 4         :                

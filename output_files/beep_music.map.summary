@@ -1,12 +1,12 @@
-Analysis & Synthesis Status : Successful - Fri Oct 23 12:26:48 2015
+Analysis & Synthesis Status : Successful - Fri Oct 30 10:53:14 2015
 Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Web Edition
 Revision Name : beep_music
-Top-level Entity Name : beep_music_top
+Top-level Entity Name : liangzhu_player
 Family : Cyclone III
-Total logic elements : 121
-    Total combinational functions : 121
-    Dedicated logic registers : 70
-Total registers : 70
+Total logic elements : 150
+    Total combinational functions : 149
+    Dedicated logic registers : 96
+Total registers : 96
 Total pins : 3
 Total virtual pins : 0
 Total memory bits : 0

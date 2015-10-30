@@ -1,5 +1,5 @@
 Flow report for beep_music
-Fri Oct 23 12:27:07 2015
+Fri Oct 30 10:53:36 2015
 Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
@@ -40,17 +40,17 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Fri Oct 23 12:27:07 2015      ;
+; Flow Status                        ; Successful - Fri Oct 30 10:53:36 2015      ;
 ; Quartus II 64-Bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
 ; Revision Name                      ; beep_music                                 ;
-; Top-level Entity Name              ; beep_music_top                             ;
+; Top-level Entity Name              ; liangzhu_player                            ;
 ; Family                             ; Cyclone III                                ;
 ; Device                             ; EP3C25Q240C8                               ;
 ; Timing Models                      ; Final                                      ;
-; Total logic elements               ; 121 / 24,624 ( < 1 % )                     ;
-;     Total combinational functions  ; 121 / 24,624 ( < 1 % )                     ;
-;     Dedicated logic registers      ; 70 / 24,624 ( < 1 % )                      ;
-; Total registers                    ; 70                                         ;
+; Total logic elements               ; 152 / 24,624 ( < 1 % )                     ;
+;     Total combinational functions  ; 150 / 24,624 ( < 1 % )                     ;
+;     Dedicated logic registers      ; 96 / 24,624 ( < 1 % )                      ;
+; Total registers                    ; 96                                         ;
 ; Total pins                         ; 3 / 149 ( 2 % )                            ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0 / 608,256 ( 0 % )                        ;
@@ -64,30 +64,30 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/23/2015 12:26:47 ;
+; Start date & time ; 10/30/2015 10:53:12 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; beep_music          ;
 +-------------------+---------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                        ;
-+-------------------------------------+---------------------------------+---------------+----------------+----------------+
-; Assignment Name                     ; Value                           ; Default Value ; Entity Name    ; Section Id     ;
-+-------------------------------------+---------------------------------+---------------+----------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 103929058393800.144557440708500 ; --            ; --             ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                     ; --            ; --             ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)       ; <None>        ; --             ; --             ;
-; EDA_TIME_SCALE                      ; 1 ps                            ; --            ; --             ; eda_simulation ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                              ; --            ; --             ; --             ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                               ; --            ; --             ; --             ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                            ; --            ; --             ; --             ;
-; PARTITION_COLOR                     ; 16764057                        ; --            ; beep_music_top ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; beep_music_top ; Top            ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; beep_music_top ; Top            ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                    ; --            ; --             ; --             ;
-; TOP_LEVEL_ENTITY                    ; beep_music_top                  ; beep_music    ; --             ; --             ;
-+-------------------------------------+---------------------------------+---------------+----------------+----------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                         ;
++-------------------------------------+---------------------------------+---------------+-----------------+----------------+
+; Assignment Name                     ; Value                           ; Default Value ; Entity Name     ; Section Id     ;
++-------------------------------------+---------------------------------+---------------+-----------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 103929058393800.144617359202412 ; --            ; --              ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                     ; --            ; --              ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)       ; <None>        ; --              ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                            ; --            ; --              ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                              ; --            ; --              ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                               ; --            ; --              ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                            ; --            ; --              ; --             ;
+; PARTITION_COLOR                     ; 16764057                        ; --            ; liangzhu_player ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; liangzhu_player ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; liangzhu_player ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                    ; --            ; --              ; --             ;
+; TOP_LEVEL_ENTITY                    ; liangzhu_player                 ; beep_music    ; --              ; --             ;
++-------------------------------------+---------------------------------+---------------+-----------------+----------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -96,11 +96,11 @@ applicable agreement for further details.
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 442 MB              ; 00:00:02                           ;
-; Fitter                    ; 00:00:10     ; 1.0                     ; 706 MB              ; 00:00:10                           ;
-; Assembler                 ; 00:00:02     ; 1.0                     ; 414 MB              ; 00:00:02                           ;
-; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 453 MB              ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 377 MB              ; 00:00:01                           ;
-; Total                     ; 00:00:17     ; --                      ; --                  ; 00:00:17                           ;
+; Fitter                    ; 00:00:11     ; 1.0                     ; 704 MB              ; 00:00:11                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 410 MB              ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 454 MB              ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 377 MB              ; 00:00:01                           ;
+; Total                     ; 00:00:19     ; --                      ; --                  ; 00:00:19                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
